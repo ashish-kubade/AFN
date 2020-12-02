@@ -30,6 +30,6 @@
     },
 
     "solver": {
-        "pretrained_path": "/home/ashj/NN/fbIN128/experiments/SRFBN_in1f64_x8/epochs/best_ckp.pth"
+        "pretrained_path": "Update the paths accordingly"
     }
 }
