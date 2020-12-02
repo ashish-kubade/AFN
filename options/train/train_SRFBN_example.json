@@ -14,7 +14,7 @@
     "datasets": {
         "train": {
             "mode": "LRHR",
-            "data_path" : "/scratch/ashj_fbIN128/fbIN128/datasets",
+            "data_path" : "Update the path respectively",
             //"data_path" : "/home/ashj/DEMO", 
             "dataroot_HR": "/mnt/data/paper99/DIV2K/Augment/DIV2K_train_HR_aug/x4",
             "dataroot_LR": "/mnt/data/paper99/DIV2K/Augment/DIV2K_train_LR_aug/x4",
@@ -28,7 +28,7 @@
         },
         "val": {
             "mode": "LRHR",
-            "data_path" : "/scratch/ashj_fbIN128/fbIN128/datasets",
+            "data_path" : "Update the path respectively",
             //"data_path" : "/home/ashj/DEMO", 
             "dataroot_HR": "./results/HR/Set5/x4",
             "dataroot_LR": "./results/LR/LRBI/Set5/x4",
@@ -63,7 +63,7 @@
         "save_ckp_step": 5,
         "save_vis_step": 1,
         "pretrain": null,
-        "pretrained_path": "/scratch/ashj_fbIN128/fbIN128/experiments/SRFBN_in1f64_x8/epochs/best_ckp.pth",
+        "pretrained_path": "Update the path directing the model pretrained weights",
         "cl_weights": [1.0, 1.0, 1.0, 1.0]
     }
 }
