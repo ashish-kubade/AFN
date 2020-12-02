@@ -10,19 +10,19 @@ This repository contains the source code to replicate the results in our paper *
 # Inference
 1. To get an inference with our pretrained model on your custom model, please add the test data pairs (aerial image and low-resolution DEM) in the datasets directory.
 2. Download the pretrained model from [this path](https://drive.google.com/drive/folders/15zxbCVT-9UMYeUD3oKXj8Tp0aeMeXUum?usp=sharing).
-3. Update the paths accordingly in options/test_options.json file. 
+3. Update the paths accordingly in options/test/test_options.json file. 
 4. Use following command to test.
   ```
-python test.py -opt options/test_options.py
+python test.py -opt options/test/test_options.py
   ```
 
 # Train
 1. To train the network on your own dataset, please add the training pairs into datasets directory. 
-2. Update the paths accordingly in options/train_options.json file. You can play with the hyperparameters like *number of steps: T*, *number of groups: N* in the same file.
+2. Update the paths accordingly in options/train/train_options.json file. You can play with the hyperparameters like *number of steps: T*, *number of groups: N* in the same file.
 3. For training, use follwing command:
 
 ```
-python train.py -opt options/train_options.py
+python train.py -opt options/train/train_options.py
 ```
 
 
