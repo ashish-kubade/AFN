@@ -9,7 +9,7 @@ This repository contains the source code to replicate the results in our paper *
 
 # Inference
 1. To get an inference with our pretrained model on your custom model, please add the test data pairs (aerial image and low-resolution DEM) in the datasets directory.
-2. Download the pretrained model from [this path](https://drive.google.com/drive/folders/15zxbCVT-9UMYeUD3oKXj8Tp0aeMeXUum?usp=sharing).
+2. Download the pretrained model from [this path](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/ashish_kubade_alumni_iiit_ac_in/EW-g0oISx7dHuhBcLVhj0HkBOOwRI4heBt0YFq-jGoEmwQ?e=Iiod5A).
 3. Update the paths accordingly in options/test/test_options.json file. 
 4. Use following command to test.
   ```
